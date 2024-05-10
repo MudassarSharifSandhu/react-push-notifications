@@ -1,0 +1,46 @@
+/* Bell Icon */
+.bell-icon-container {
+  position: relative;
+}
+
+.unread-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+/* Notification Dropdown */
+.notification-dropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.notification-dropdown.open {
+  display: block;
+}
+
+.notification-dropdown ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-dropdown li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.notification-dropdown li:hover {
+  background-color: #f2f2f2;
+}
